@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>Romantic</title>
+  </head>
+  <body>
+     <header>
+      <div class="wrapper">
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+              <a href="index.html">
+                <img src="assets/img/Logo.svg" alt="Logo" />
+              </a>
+            </div>
+            <div class="header_nav">
+              <a href="index.html">Главная</a>
+              <a href="catalog.html">Каталог</a>
+              <a href="#">Акции</a>
+              <a href="aboutUs.html">О компании</a>
+              <a href="#">Блог</a>
+              <a href="contact.html">Контакты</a>
+            </div>
+            <div class="header_contact">
+              <div class="header_contact_number">
+                <button><a href=""> Позвонить </a></button>
+              </div>
+              <div class="favorite-card-menu">
+                <a href="#">
+                  <img src="assets/icon/favorite.svg" alt="favirite" />
+                </a>
+                <a href="#">
+                  <img src="assets/icon/cart.svg" alt="cart" />
+                  <span>3</span>
+                </a>
+                <div class="burger_menu">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="header_nav_burger">
+              <a class="header_nav_burger_link" href="">Позвонить</a>
+              <a class="header_nav_burger_link" href=""><img src="./assets/icon/favorite-white.svg" alt="">Избранное</a>
+              <a class="header_nav_burger_link" href=""><img src="/assets/icon/cart-white.svg" alt="">Корзина</a>
+              <a class="header_nav_burger_link" href="index.html">Главная</a>
+              <a class="header_nav_burger_link" href="catalog.html">Каталог</a>
+              <a class="header_nav_burger_link" href="#">Акции</a>
+              <a class="header_nav_burger_link" href="aboutUs.html"
+                >О компании</a
+              >
+              <a class="header_nav_burger_link" href="#">Блог</a>
+              <a class="header_nav_burger_link" href="contact.html">Контакты</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="slider">
+      <div class="wrapper">
+        <div class="container">
+          <section class="slider_slid">
+            <div class="slider_slid_img">
+              <div class="swiper">
+                <swiper-container speed="500" loop="true" autoplay-delay="2500">
+                  <swiper-slide>
+                    <h1>Casabella</h1>
+                    <h5>СКИДКА <span>20%</span> до 31 августа</h5>
+                  </swiper-slide>
+                  <swiper-slide>
+                    <h1>Casabella</h1>
+                    <h5>СКИДКА <span>20%</span> до 31 августа</h5>
+                  </swiper-slide>
+                  <swiper-slide>
+                    <h1>Casabella</h1>
+                    <h5>СКИДКА <span>20%</span> до 31 августа</h5>
+                  </swiper-slide>
+                </swiper-container>
+                <button class="swiper-prev">
+                  <img src="assets/icon/Slider-arrow-left.svg" alt="" />
+                </button>
+                <button class="swiper-next">
+                  <img src="assets/icon/Slider-arrow-right.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="breadcurms">
+      <div class="wrapper">
+        <div class="container">
+          <a href="index.html">Главная</a>
+          <span>/</span>
+          <a href="">Каталог товаров</a>
+          <span>/</span>
+          <span>Кермаическая плитка</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="filter">
+      <div class="wrapper">
+        <div class="container">
+          <div class="title">
+            <h2>Керамическая плитка</h2>
+          </div>
+          <section class="filter-track">
+            <div class="filter-func">
+              <button>
+                <img src="assets/icon/filtersvg.svg" alt="">
+                <span><strong>Фильтр</strong></span>
+              </button>
+              <a href="">
+                <img src="assets/icon/refresh-ccw.svg" alt="refresh">
+                <span>Сбросить фильтр</span>
+              </a>
+            </div>
+            <div class="filter-option">
+              <div class="filter-option-select">
+                <div class="format">
+                  <select name="" id="">
+                    <option value="">Применение</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="">Формат</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="">Поверхность</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="">Размер</option>
+                  </select>
+                </div>
+                <div class="format">
+                  <select name="" id="">
+                    <option value="">Ширина</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="">Цвет</option>
+                  </select>
+                  <div class="price" action="">
+                    <p>Цена от</p>
+                    <input type="text">
+                  </div class="price">
+                  <div class="price" action="">
+                    <p>до</p>
+                    <input type="text">
+                    <p>сом</p>
+                  </div class="price">
+                </div>
+                <div class="btn">
+                  <button>Развернуть</button>
+                  <button>Применить</button>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="wrapper">
+        <div class="container">
+          <div class="title">
+            <h2>Товары</h2>
+            <div class="results">
+              <p><strong>резульат:</strong></p>
+              <p>1-12</p>
+            </div>
+          </div>
+          <section class="popular-slider">
+            <div class="size-arrow">
+              <p>1200*1200</p>
+            </div>
+            <div class="popular-slider_track">
+              <div class="swiper-wrapper">
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-1200x1200.svg" alt="1200x1200" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="popular-slider">
+            <div class="size-arrow">
+              <p>600*600</p>
+            </div>
+            <div class="popular-slider_track">
+              <div class="swiper-wrapper">
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="product">
+                  <img src="assets/img/product-600x600.svg" alt="600x600" />
+                  <p>Керамогранит Creto Forza Calacatta white PG 01 45х45</p>
+                  <div class="price-card">
+                    <p>3 564 сом</p>
+                    <button>
+                      <img
+                        src="assets/icon/shopping-cart.svg"
+                        alt="shopping-cart"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="pagination">
+      <div class="wrapper">
+        <div class="container">
+          <div class="pagination_btn">
+            <button>
+              <img src="assets/icon/pagination-back-btn.svg" alt="">
+            </button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>
+              <img src="assets/icon/pagination-next-btn.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <div class="container">
+          <div class="footer">
+            <div class="footer_top">
+              <div class="footer_top_logo">
+                <a href="index.html">
+                  <img src="assets/img/FooterLogo.svg" alt="Footer-Logo" />
+                </a>
+                <p>
+                  Шоурум «Romantic» – единственный салон в Бишкеке, где
+                  дизайнерские решения воплощены в оформлении каждого стенда.
+                </p>
+              </div>
+              <div class="footer_top_nav">
+                <h2>Навигация</h2>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="aboutUs.html">О нас</a>
+                <a href="#">Блог</a>
+                <a href="contact.html">Контакты</a>
+              </div>
+              <div class="footer_top_link">
+                <h2>Полезные ссылки</h2>
+                <a href="">Оплата и доставка</a>
+                <a href="">Условия возварта</a>
+              </div>
+              <div class="footer_top_contacts">
+                <a href="">
+                  <img src="assets/icon/Phone.svg" alt="tel" />
+                  <span>+996(555) 458-584</span>
+                </a>
+                <a href="">
+                  <img src="assets/icon/mail.svg" alt="email" />
+                  <span>info@romantic.kg</span>
+                </a>
+              </div>
+            </div>
+            <div class="footer_kofident">
+              <a href="">
+                <span>Наши соц сети</span>
+                <img src="assets/icon/arrow-right.svg" alt="" />
+              </a>
+              <a href="">Политика конфиденциальности</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="container">
+            <div class="footer_b">
+              <p>2024 год . “Romantic” керамогранит премиум класса</p>
+              <p>Сайт разработала студия “Nursultan-Digital.pro”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/product-slide.js"></script>
+  </body>
+</html>
